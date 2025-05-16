@@ -1,0 +1,27 @@
+{
+  "name": "lojinhaapi-mvc",
+  "version": "1.0.0",
+  "description": "API da Lojinha com Restify e MVC",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "restify",
+    "mvc",
+    "api",
+    "knex"
+  ],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^3.1.0",
+    "mysql": "^2.18.1", 
+    "restify": "^11.1.0",
+    "restify-errors": "^8.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
